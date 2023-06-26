@@ -1,14 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-
-using Android.App;
-using Android.OS;
-using Android.Widget;
-
-using static Android.Widget.AdapterView;
+﻿using static Android.Widget.AdapterView;
 
 
-namespace GetViewBreakPointFail
+namespace NetAndroidGetViewBreakPointFail
 {
     [Activity(Label = "@string/app_name", MainLauncher = true)]
     public class MainActivity : Activity
