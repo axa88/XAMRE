@@ -1,4 +1,4 @@
 <resources>
-    <string name="app_name">NetAndroidGetViewBreakPointFail</string>
+    <string name="app_name">DotNetAndroidBreakpointFail</string>
     <string name="app_text">Hello, Android!</string>
 </resources>

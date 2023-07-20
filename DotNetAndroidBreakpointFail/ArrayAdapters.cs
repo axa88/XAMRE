@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-
-using Android.Content;
+﻿using Android.Content;
 using Android.Views;
-using Android.Widget;
 
 
-namespace GetViewBreakPointFail
+namespace DotNetAndroidBreakpointFail
 {
 	// ReSharper disable once ClassNeverInstantiated.Global
 	internal class ArrayAdapters

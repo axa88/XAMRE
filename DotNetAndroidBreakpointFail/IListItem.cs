@@ -1,4 +1,4 @@
-﻿namespace NetAndroidGetViewBreakPointFail
+﻿namespace DotNetAndroidBreakpointFail
 {
 	internal interface IListItem
 	{

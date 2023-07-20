@@ -1,7 +1,7 @@
 ﻿using static Android.Widget.AdapterView;
 
 
-namespace NetAndroidGetViewBreakPointFail
+namespace DotNetAndroidBreakpointFail
 {
     [Activity(Label = "@string/app_name", MainLauncher = true)]
     public class MainActivity : Activity
@@ -14,7 +14,10 @@ namespace NetAndroidGetViewBreakPointFail
         {
 			base.OnCreate(savedInstanceState);
 
-			AppDomain.CurrentDomain.UnhandledException += (_, args) => System.Diagnostics.Debug.WriteLine(args.ToString());
+			AppDomain.CurrentDomain.UnhandledException += (_, args) =>
+			{
+				System.Diagnostics.Debug.WriteLine(args.ToString());
+			};
 
 			SetContentView(Resource.Layout.ListLayout);
 

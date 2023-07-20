@@ -1,7 +1,7 @@
 ﻿using static Android.Widget.AdapterView;
 
 
-namespace NetAndroidGetViewBreakPointFail
+namespace DotNetAndroidBreakpointFail
 {
 	internal class ListItemBase : IListItem
 	{
@@ -20,5 +20,7 @@ namespace NetAndroidGetViewBreakPointFail
 		public virtual void OnItemClick(object sender, ItemClickEventArgs args) { }
 
 		#endregion
+
+		//public override string ToString() => PrimaryText;
 	}
 }

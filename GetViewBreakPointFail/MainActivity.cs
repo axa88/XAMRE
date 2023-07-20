@@ -21,7 +21,10 @@ namespace GetViewBreakPointFail
         {
 			base.OnCreate(savedInstanceState);
 
-			AppDomain.CurrentDomain.UnhandledException += (_, args) => System.Diagnostics.Debug.WriteLine(args.ToString());
+			AppDomain.CurrentDomain.UnhandledException += (_, args) =>
+			{
+				System.Diagnostics.Debug.WriteLine(args.ToString());
+			};
 
 			SetContentView(Resource.Layout.ListLayout);
 
