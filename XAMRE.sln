@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetViewBreakPointFail", "Ge
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetAndroidBreakpointFail", "DotNetAndroidBreakpointFail\DotNetAndroidBreakpointFail.csproj", "{33112CC6-FA9F-4099-BA31-8FF3765AC1C7}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MauiAppNet7", "..\..\..\source\repos\MauiAppNet7\MauiAppNet7\MauiAppNet7.csproj", "{06F3A18F-9F2E-4AB7-BE6C-7C89A3DDADBE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +27,12 @@ Global
 		{33112CC6-FA9F-4099-BA31-8FF3765AC1C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{33112CC6-FA9F-4099-BA31-8FF3765AC1C7}.Release|Any CPU.Build.0 = Release|Any CPU
 		{33112CC6-FA9F-4099-BA31-8FF3765AC1C7}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{06F3A18F-9F2E-4AB7-BE6C-7C89A3DDADBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06F3A18F-9F2E-4AB7-BE6C-7C89A3DDADBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06F3A18F-9F2E-4AB7-BE6C-7C89A3DDADBE}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{06F3A18F-9F2E-4AB7-BE6C-7C89A3DDADBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06F3A18F-9F2E-4AB7-BE6C-7C89A3DDADBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06F3A18F-9F2E-4AB7-BE6C-7C89A3DDADBE}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
